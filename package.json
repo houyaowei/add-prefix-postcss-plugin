@@ -1,0 +1,30 @@
+{
+  "name": "add-prefix-postcss-plugin",
+  "version": "0.0.1",
+  "author": "houyuewei <houyaowei@163.com>",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node main.js"
+  },
+  "files": [
+    "dist",
+    "main.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houyaowei/add-prefix-postcss-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/houyaowei/add-prefix-postcss-plugin/issues"
+  },
+  "homepage": "https://github.com/houyaowei/add-prefix-postcss-plugin#readme",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "7.0.39",
+    "rollup": "^2.66.1"
+  }
+}
