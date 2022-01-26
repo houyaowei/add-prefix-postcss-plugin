@@ -6,7 +6,7 @@
 ### 使用说明
 
 ```javascript
-yarn install add-prefix-postcss-plugin -D
+yarn add add-prefix-postcss-plugin -D
 or
 npm install add-prefix-postcss-plugin -dev
 ```
