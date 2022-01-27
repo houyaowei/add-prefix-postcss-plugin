@@ -17,7 +17,7 @@ module.exports = postcss.plugin('add-prefix-postcss-plugin', function(opts = {})
       if (rule.parent.type === 'root' && !(selector.includes(':root') || selector.includes('body') || selector.includes('html') || selector.includes(prefix)) && !rule.flag) {
         rule.flag = true
         const clone = rule.clone()
-        clone.selector = `${prefix} ${selector}`
+        clone.selector = `.${prefix} ${selector}`
         rule.replaceWith(clone)
       }
     })
